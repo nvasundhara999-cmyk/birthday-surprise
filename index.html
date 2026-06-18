@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Advance Birthday Surprise 💙</title>
+
+<link rel="stylesheet" href="style.css">
+
+<!-- 🎉 Confetti -->
+<script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+</head>
+
+<body>
+
+<!-- PAGE 1 -->
+<div class="page active" id="page1">
+    <h3>January 7 is coming... 🎂</h3>
+    <h1>A Little Surprise For You 💙</h1>
+    <p>I didn’t want to wait till your birthday.</p>
+
+    <p id="countdown">Loading countdown...</p>
+
+    <button onclick="nextPage(2)">Open 🎁</button>
+</div>
+<!-- PAGE 2 -->
+<div class="page" id="page2">
+    <img src="pic1.jpg" class="photo">
+
+    <h1>Some people enter our lives quietly,</h1>
+    <p class="caption">yet leave the biggest impact 💙</p>
+
+    <button onclick="nextPage(3)">Next →</button>
+</div>
+
+<!-- PAGE 3 -->
+<div class="page" id="page3">
+    <img src="pic2.jpg" class="photo">
+
+    <h1>A soul that taught me strength,</h1>
+    <p class="caption">Reality, and so much more ✨</p>
+
+    <button onclick="nextPage(4)">Next →</button>
+</div>
+
+<!-- PAGE 4 -->
+<div class="page" id="page4">
+    <img src="pic3.jpg" class="photo">
+
+    <h1>No matter how much time passes,</h1>
+    <p class="caption">some people remain special..You are definitely one of them 🌙</p>
+
+    <button onclick="nextPage(5)">Next →</button>
+</div>
+
+<!-- PAGE 5 -->
+<div class="page" id="page5">
+
+    <div class="message">
+        <h2>💌 A Little Note For You</h2>
+
+        <p>
+        Your birthday is still a little away, but I didn’t want to wait until Jan 7 💙
+        <br><br>
+
+        I just wanted to remind you how grateful I am to know you.
+        <br><br>
+
+        You’ve been someone who made me realize so many things in life.
+        In ways you may not even know, you’ve helped me grow and become stronger.
+        <br><br>
+
+        I feel truly blessed to have a friend like you..
+        <br><br>
+
+        No matter what changes, I’ll always wish the best for you and be there for you.
+        <br><br>
+
+        May all your wishes and dreams come true ✨
+        <br><br>
+
+        Keep smiling. Keep shining. 💙
+        <br><br>
+
+        Advancee Happyyy Birthdayyy Mukilannn 🎂💙
+        <br><br>
+
+        — Vasundhara
+        </p>
+    </div>
+
+    <button onclick="showPopup()">Click for Final Surprise 💙</button>
+
+    <!-- POPUP -->
+    <div id="popup" class="popup">
+        <div class="popup-box">
+            <h2>🎉 Surprise!</h2>
+            <p>
+                Advance Happy Birthday 💙✨<br><br>
+                You are genuinely special.<br>
+                I’m really lucky to know you.
+            </p>
+
+            <button onclick="closePopup()">Close</button>
+        </div>
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
